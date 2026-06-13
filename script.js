@@ -1,7 +1,8 @@
 document.querySelector('.blue').addEventListener('click', function() {
-    alert('Открываю список билетов АВ...');
+    alert('Работает! Список билетов АВ откроется здесь.');
 });
 
 document.querySelector('.red').addEventListener('click', function() {
-    alert('Начинаем экзамен!');
+    alert('Экзамен скоро будет доступен!');
 });
+
