@@ -9,22 +9,13 @@
 <body>
     <div class="app-container">
         <div class="header">Разбор ПДД 2026</div>
-        <div class="stats">
-            <div>579<span>ВОПРОСЫ</span></div>
-            <div>21<span>БИЛЕТЫ</span></div>
-            <div>2<span>ТЕМЫ</span></div>
-        </div>
-        <button class="btn blue">Билеты АВ</button>
-        <button class="btn red">Экзамен</button>
-        <button class="btn gold">⭐ ПРЕМИУМ ОБУЧЕНИЕ</button>
-        <div class="grid">
-            <button class="btn-sm">Темы</button>
-            <button class="btn-sm">Марафон</button>
-            <button class="btn-sm">Ошибки</button>
-            <button class="btn-sm">Избранное</button>
+        <div id="quiz-area">
+            <div id="question-text" style="margin-bottom: 20px; font-size: 18px; text-align: center;">Нажми кнопку, чтобы начать тест</div>
+            <div id="options-container"></div>
+            <button class="btn blue" id="start-btn" onclick="startQuiz()">Начать тест</button>
         </div>
     </div>
+    <script src="questions.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
-
